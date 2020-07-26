@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="D:/IT/ProjectFile/EdusohoTestNGM(failed)">
+    <classes>
+      <class name="com.testng.demo.TC3">
+        <methods>
+          <include name="clas02"/>
+        </methods>
+      </class> <!-- com.testng.demo.TC3 -->
+      <class name="com.testng.demo.TC4">
+        <methods>
+          <include name="clas02"/>
+        </methods>
+      </class> <!-- com.testng.demo.TC4 -->
+    </classes>
+  </test> <!-- D:/IT/ProjectFile/EdusohoTestNGM(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

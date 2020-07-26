@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/IT/ProjectFile/EdusohoTestNGM">
+        <classes>
+            <class name="com.testng.demo.TC1">
+                <methods>
+                    <include name="clas01"/>
+                    <include name="clas02"/>
+                </methods>
+            </class>
+            <class name="com.testng.demo.TC2">
+                <methods>
+                    <include name="clas03"/>
+                    <include name="clas04"/>
+                </methods>
+            </class>
+            <class name="com.testng.demo.TC3">
+                <methods>
+                    <include name="clas01"/>
+                    <include name="clas02"/>
+                </methods>
+            </class>
+            <class name="com.testng.demo.TC4">
+                <methods>
+                    <include name="clas01"/>
+                    <include name="clas02"/>
+                </methods>
+            </class>
+            <class name="com.testng.demo.TC5">
+                <methods>
+                    <include name="clas01"/>
+                    <include name="clas02"/>
+                </methods>
+            </class>
+            <class name="com.testng.demo.TC6">
+                <methods>
+                    <include name="clas01"/>
+                    <include name="clas02"/>
+                </methods>
+            </class>
+            <class name="com.testng.demo.demo.NewTest">
+                <methods>
+                    <include name="f1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
